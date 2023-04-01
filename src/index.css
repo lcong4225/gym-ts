@@ -1,0 +1,17 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Neucha&family=Zen+Maru+Gothic&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Zen+Maru+Gothic:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app{
+    height: 100%;
+    width: 100%;
+    font-family: 'Neucha', cursive;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    @apply text-gray-500;
+}
